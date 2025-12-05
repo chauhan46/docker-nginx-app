@@ -11,7 +11,7 @@ pipeline {
 
         stage("git clone") {
             steps {
-                git branch: 'main', url:'https://github.com/chauhan46/docker-nginx-app.git'
+                git branch: 'main', url:'https://github.com/chauhan46/docker-nginx-app.git' #if u want to clone u required, this is my executed script
             }
         }
 
